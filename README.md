@@ -9,6 +9,11 @@ Create a Docker Network: Creates a network for communication between containers 
 - docker network create network_name
 
 
+Create a Docker Volume: Creates a volume to persist data in Mongo
+
+- docker volume create volume_database
+
+
 
 Run the Backend Container: Starts the Node.js/Express backend container and exposes port 3000.
 
