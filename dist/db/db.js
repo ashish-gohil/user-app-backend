@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
 const seedData_1 = require("./seedData");
-const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/userAppDb";
+const dbUrl = process.env.DB_URL || "mongodb://localhost:27017";
 const connectDB = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const conn = yield mongoose_1.default.connect(dbUrl);
