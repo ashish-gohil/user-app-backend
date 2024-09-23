@@ -10,7 +10,7 @@ const connectDB = async () => {
     await seedUsers();
   } catch (error: any) {
     console.error(`Error: ${error.message}`);
-    process.exit(1); // Exit the process with failure
+    process.exit(1); 
   }
 };
 

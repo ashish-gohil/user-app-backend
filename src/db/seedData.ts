@@ -1,4 +1,4 @@
-import User from "./models/userModel"; // Import your User model
+import User from "./models/userModel";
 
 export const seedUsers = async () => {
   // Check if users already exist in the database
